@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ASSIGNMENT-3</title>
+	<link rel="stylesheet" href="1.css">
+</head>
+<body>
+		<h1>Online Job Application Form</h1>
+			<form>
+				<fieldset><legend>Personal Information</legend>
+					<table>
+						<tr>
+							<td>
+								<label>First Name</label>
+							</td>
+							<td><input type="text"></td>
+							<td>
+								<label>Middle Name</label>
+							</td>
+							<td><input type="text"></td>
+							<td>
+								<label>Last Name</label>
+							</td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td><label>Father's Name</label></td>
+							<td><input type="text"></td>
+							<td><label>Mother's name</label></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td><label>Current Address</label></td>
+							<!-- <td><input type="text"></td> -->
+							<td><textarea cols="25" rows="4"></textarea></td>
+							<td><label>Parmenant Address</label></td>
+							<td><textarea cols="25" rows="4"></textarea></td>
+							<!-- <td><input type="text"></td> -->
+						</tr>
+						<tr>
+							<td colspan="8"><label>Phone Number</label></td>
+						</tr>
+						<tr>
+							<td><label>Landline Number</label></td>
+							<td><input type="text"></td>
+							<td><label>Mobile number</label></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td><label>Date of Birth</label></td>
+							<td><input type="datetime-local"></td>
+							<td><label>Place Of Birth</label></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><label>Select gender</label></td>
+							<td colspan="2"><input type="radio" name="r1">Male</td>
+							<td colspan="2"><input type="radio" name="r1">Female</td>
+						</tr>
+						<tr>
+							<td><label>Highest Qualification</label></td>
+							<td><input type="text"></td>
+							<td><label>Year of Passing</label></td>
+							<td><input type="datetime-local"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><label>languages known</label></td>
+							<td colspan="2"><input type="checkbox">Telugu</td>
+							<td colspan="2"><input type="checkbox">Hindi</td>
+							<td colspan="1"><input type="checkbox">English</td>
+						</tr>
+						<tr>
+							<td colspan="2"><label>select Hobbies</label></td>
+							<td colspan="2"><input type="checkbox">Eating</td>
+							<td colspan="2"><input type="checkbox">coding</td>
+							<td colspan="2"><input type="checkbox">Sleeping</td>
+						</tr>
+						<tr>
+							<td><label>About Yoursself</label></td>
+							<td><textarea cols="25" rows="4"></textarea></td>
+						</tr>
+						<tr>
+							<td><label>Nationality</label></td>
+							<td><input list="city">
+								<datalist id="city">
+									<option>American</option>
+									<option>Australian</option>
+									<option>African</option>
+									<option>indian</option>
+								</datalist>
+							</td>
+						</tr>
+						<tr>
+							<td><label>AadharCard Number</label></td>
+							<td><input type="text"></td>
+							<td><label>Pancard Number</label></td>
+							<td><input type="text"></td>
+						</tr>
+					</table>
+				</fieldset>
+				<fieldset>
+					<legend>Educational Details</legend>
+					<table>
+						<tr>
+							<th colspan="2"><label>S.NO</label></th>
+							<th><label>Qualification</label></th>
+							<th><label>Institute/University</label></th>
+							<th><label>Year Of Passing</label></th>
+							<th><label>Marks(%)</label></th>
+						</tr>
+						<tr>
+							<td colspan="2"><label>1.</label></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="datetime-local"></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><label>2.</label></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="datetime-local"></td>
+							<td><input type="text"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><label>3.</label></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="datetime-local"></td>
+							<td><input type="text"></td>
+						</tr>
+					</table>
+				</fieldset>
+				<fieldset>
+					<legend>Work Experience</legend>
+					<table>
+						<tr>
+							<th colspan="2"><label>S.NO</label></th>
+							<th><label>Company</label></th>
+							<th><label>Work/Roles</label></th>
+							<th><label>From date</label></th>
+							<th><label>To date</label></th>
+						</tr>
+						<tr>
+							<td colspan="2"><label>1.</label></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="datetime-local"></td>
+							<td><input type="datetime-local"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><label>2.</label></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="datetime-local"></td>
+							<td><input type="datetime-local"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><label>3.</label></td>
+							<td><input type="text"></td>
+							<td><input type="text"></td>
+							<td><input type="datetime-local"></td>
+							<td><input type="datetime-local"></td>
+						</tr>
+					</table>
+				</fieldset>
+				<fieldset>
+					<legend>Other Details</legend>
+					<table>
+						<tr>
+							<td colspan="2"><label>Job type</label></td>
+							<td colspan="2"><input type="radio" name="r1">Permenant</td>
+							<td colspan="2"><input type="radio" name="r1">Contract</td>
+							<td colspan="2"><input type="radio" name="r1">Other</td>
+						</tr>
+						<tr>
+							<td colspan="2"><label>date of joining</label></td>
+							<td colspan="2"><input type="datetime-local"></td>
+							<td colspan="2"><label>Time of joining</label></td>
+							<td colspan="2"><input type="datetime-local"></td>
+						</tr>
+						<tr>
+							<td colspan="2"><label>Preferred job location</label></td>
+							<td colspan="2"><input type="checkbox">Hyderabad</td>
+							<td colspan="2"><input type="checkbox">Bangalore</td>
+							<td colspan="2"><input type="checkbox">Other</td>
+						</tr>
+						<tr>
+							<td colspan="2"><label>Willing to relocate to Hyderabad?</label></td>
+							<td colspan="2"><input type="radio">Yes</td>
+							<td><input type="radio">No</td>
+						</tr>
+						<tr>
+							<td><input type="checkbox">Iam Here declaring all the above mentioned details are true according to my knowledge</td>
+						</tr>
+					</table>
+					<table>
+						<tr>
+							<td><input type="submit"></td>
+							<td><input type="reset"></td>
+						</tr>
+					</table>
+				</fieldset>
+			</form>
+	</body>
+</html>
